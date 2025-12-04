@@ -71,18 +71,55 @@
     <include>
       <uri>file:///home/shady/.gz/fuel/fuel.gazebosim.org/openrobotics/models/aws_robomaker_warehouse_shelfe_01/4</uri>
       <name>aws_robomaker_warehouse_ShelfE_01</name>
-      <pose>-2.2867178715329093 2.3237409043923929 0 0 0 0</pose>
+      <pose>-4.17 4.24 0 0 0 0</pose>
     </include>
+
     <include>
       <uri>file:///home/shady/.gz/fuel/fuel.gazebosim.org/openrobotics/models/aws_robomaker_warehouse_bucket_01/3</uri>
       <name>aws_robomaker_warehouse_Bucket_01</name>
-      <pose>-3.2870625592789611 -1.6768643517109023 0 0 0 0</pose>
+      <pose>-5.62 -2.87 0 0 0 0</pose>
     </include>
+
     <include>
       <uri>file:///home/shady/.gz/fuel/fuel.gazebosim.org/openrobotics/models/aws_robomaker_warehouse_clutteringc_01/4</uri>
       <name>aws_robomaker_warehouse_ClutteringC_01</name>
-      <pose>-0.70163909849194006 -3.0005636174483108 0 0 0 0</pose>
+      <pose>-1.38 -6.00 0 0 0 0</pose>
     </include>
+    <!-- Box 1 -->
+    <include>
+      <uri>file:///home/shady/gz_ros2_aruco_ws/src/ros2-gazebo-aruco/gz-world/aruco_box/model.sdf</uri>
+      <pose>2 0 0.25 0 0 0</pose>
+      <name>box_1</name>
+    </include>
+
+    <!-- Box 2 -->
+    <include>
+      <uri>file:///home/shady/gz_ros2_aruco_ws/src/ros2-gazebo-aruco/gz-world/aruco_box/model.sdf</uri>
+      <pose>0.618 1.902 0.25 0 0 0</pose>
+      <name>box_2</name>
+    </include>
+
+    <!-- Box 3 -->
+    <include>
+      <uri>file:///home/shady/gz_ros2_aruco_ws/src/ros2-gazebo-aruco/gz-world/aruco_box/model.sdf</uri>
+      <pose>-1.618 1.176 0.25 0 0 0</pose>
+      <name>box_3</name>
+    </include>
+
+    <!-- Box 4 -->
+    <include>
+      <uri>file:///home/shady/gz_ros2_aruco_ws/src/ros2-gazebo-aruco/gz-world/aruco_box/model.sdf</uri>
+      <pose>-1.618 -1.176 0.25 0 0 0</pose>
+      <name>box_4</name>
+    </include>
+
+    <!-- Box 5 -->
+    <include>
+      <uri>file:///home/shady/gz_ros2_aruco_ws/src/ros2-gazebo-aruco/gz-world/aruco_box/model.sdf</uri>
+      <pose>0.618 -1.902 0.25 0 0 0</pose>
+      <name>box_5</name>
+    </include>
+
     <light name='sun' type='directional'>
       <pose>0 0 10 0 0 0</pose>
       <cast_shadows>true</cast_shadows>

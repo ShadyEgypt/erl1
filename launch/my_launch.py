@@ -7,7 +7,7 @@ from launch.substitutions import LaunchConfiguration, PathJoinSubstitution, Text
 
 def generate_launch_description():
     world_arg = DeclareLaunchArgument(
-        'world', default_value='my_world1.sdf',
+        'world', default_value='my_world.sdf',
         description='Basic Amazon Warehouse'
     )
     pkg_erl1= get_package_share_directory('erl1')
