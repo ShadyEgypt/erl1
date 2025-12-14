@@ -90,35 +90,35 @@
     </include>
     <!-- Box 1 -->
     <include>
-      <uri>cube_1</uri>    
+      <uri>file:///home/shady/Documents/unige_robotics_msc/0x03_second_year_3rd_semester/experimental/ros2_ws/src/aruco_marker_gazebo/models/cube_1/model.sdf</uri>    
       <pose>2 0 0.25 0 -5 0</pose>
       <name>box_1</name>
     </include>
 
     <!-- Box 2 -->
     <include>
-      <uri>cube_2</uri>    
+      <uri>file:///home/shady/Documents/unige_robotics_msc/0x03_second_year_3rd_semester/experimental/ros2_ws/src/aruco_marker_gazebo/models/cube_2/model.sdf</uri>    
       <pose>0.618 1.902 0.25 0 0 0</pose>
       <name>box_2</name>
     </include>
 
     <!-- Box 3 -->
     <include>
-      <uri>cube_3</uri>    
+      <uri>file:///home/shady/Documents/unige_robotics_msc/0x03_second_year_3rd_semester/experimental/ros2_ws/src/aruco_marker_gazebo/models/cube_3/model.sdf</uri>    
       <pose>-1.618 1.176 0.25 0 0 0</pose>
       <name>box_3</name>
     </include>
 
     <!-- Box 4 -->
     <include>
-      <uri>cube_4</uri>    
+      <uri>file:///home/shady/Documents/unige_robotics_msc/0x03_second_year_3rd_semester/experimental/ros2_ws/src/aruco_marker_gazebo/models/cube_4/model.sdf</uri>    
       <pose>-1.618 -1.176 0.25 0 0 0</pose>
       <name>box_4</name>
     </include>
 
     <!-- Box 5 -->
     <include>
-      <uri>cube_5</uri>    
+      <uri>file:///home/shady/Documents/unige_robotics_msc/0x03_second_year_3rd_semester/experimental/ros2_ws/src/aruco_marker_gazebo/models/cube_5/model.sdf</uri>    
       <pose>0.618 -1.902 0.25 0 0 0</pose>
       <name>box_5</name>
     </include>
